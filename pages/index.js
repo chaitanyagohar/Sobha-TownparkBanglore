@@ -455,7 +455,7 @@ export default function Home(){
               <h4 className="font-semibold mb-2">Project Office</h4>
               <p className="text-sm text-gray-600 mb-4">Attibele, Hosur Road, Bangalore</p>
               <div className="w-full h-80 rounded-lg overflow-hidden border">
-                <iframe title="project-location" className="w-full h-full" loading="lazy" src="https://maps.app.goo.gl/vFG7tPYfFg1YWrTn7" />
+                <iframe title="project-location" className="w-full h-full" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.871096700456!2d77.744187!3d12.7868781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6e03e51367c7%3A0x65e34df5be85c70d!2sSOBHA%20Manhattan%20Towers%20-%20Townpark!5e0!3m2!1sen!2sin!4v1758253491382!5m2!1sen!2sin" />
               </div>
             </div>
           </div>
