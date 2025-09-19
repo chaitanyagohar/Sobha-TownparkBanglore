@@ -200,9 +200,9 @@ export default function Home(){
             <a href="#floorplans" className="hover:text-[#d3af37]">Floorplans</a>
             <a href="#gallery" className="hover:text-[#d3af37]">Gallery</a>
             <a href="#contact" className="hover:text-[#d3af37]">Contact</a>
-            <a href="tel:+918310162833" className={`flex items-center gap-2 border rounded-full px-4 py-2 transition-all duration-300 ${isHeaderScrolled ? 'border-[#d3af37] text-[#d3af37] hover:bg-[#d3af37]/10' : 'border-white text-white hover:bg-white/10'}`}>
+            <a href="tel:+916366026847" className={`flex items-center gap-2 border rounded-full px-4 py-2 transition-all duration-300 ${isHeaderScrolled ? 'border-[#d3af37] text-[#d3af37] hover:bg-[#d3af37]/10' : 'border-white text-white hover:bg-white/10'}`}>
               <FaPhoneAlt size={12} />
-              <span>+91 8310162833</span>
+              <span>+91 6366026847</span>
             </a>
           </nav>
           <div className="lg:hidden">
@@ -455,7 +455,7 @@ export default function Home(){
               <h4 className="font-semibold mb-2">Project Office</h4>
               <p className="text-sm text-gray-600 mb-4">Attibele, Hosur Road, Bangalore</p>
               <div className="w-full h-80 rounded-lg overflow-hidden border">
-                <iframe title="project-location" className="w-full h-full" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.040659107959!2d77.72890681528655!3d12.841031321782618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6d95775f2861%3A0x83e5a59314412e84!2sSobha%20Town%20Park!5e0!3m2!1sen!2sin!4v1663505681603!5m2!1sen!2sin" />
+                <iframe title="project-location" className="w-full h-full" loading="lazy" src="https://maps.app.goo.gl/vFG7tPYfFg1YWrTn7" />
               </div>
             </div>
           </div>
@@ -466,7 +466,7 @@ export default function Home(){
         <div className="max-w-6xl mx-auto px-6 py-10">
           <ul className="space-y-2 mb-6">
               <li>Project Registered under Government of India RERA Act 2016</li>
-              <li>Marketed by AOC Leasing LLP</li>
+              <li>Marketed by Propphase Realty</li>
               <li>RERA Project Registration No: PRM/KA/RERA/1251/308/PR/210518/004150</li>
               <li>Site Address: Electronic City, Bangalore</li>
           </ul>
@@ -625,7 +625,7 @@ export default function Home(){
 
       <div className="fixed z-30 bottom-0 left-0 right-0 grid grid-cols-2 lg:hidden">
         <a
-          href="https://wa.me/918310162833"
+          href="https://wa.me/916366026847"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-green-500 text-white p-4 flex items-center justify-center gap-3 text-lg font-semibold btn-glare"
@@ -634,7 +634,7 @@ export default function Home(){
           <span>WhatsApp</span>
         </a>
         <a
-          href="tel:+918310162833"
+          href="tel:+916366026847"
           className="bg-blue-600 text-white p-4 flex items-center justify-center gap-3 text-lg font-semibold btn-glare"
         >
           <FaPhoneAlt size={20} />
