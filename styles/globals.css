@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body, #__next { height: 100%; }
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+/* VVV ADD THIS CODE FOR THE BUTTON GLARE EFFECT VVV */
+/* styles/globals.css */
+
+/* VVV REPLACE your old .btn-glare styles with this block VVV */
+/* In styles/globals.css */
+
+/* VVV REPLACE your old .btn-glare styles with this block VVV */
+.btn-glare {
+  position: relative;
+  overflow: hidden;
+  z-index: 1; /* Ensures the pseudo-element stays behind the button text */
+}
+
+.btn-glare::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -125%; /* Start far to the left */
+  width: 75%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.25) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: skewX(-25deg);
+  /* This makes the animation run forever */
+  animation: glare-sweep 3s infinite linear 2s; /* 3s duration, infinite loop, 2s initial delay */
+  z-index: -1; /* Places the glare behind the content */
+}
+
+@keyframes glare-sweep {
+  0% { left: -125%; }
+  100% { left: 125%; }
+}
+/* ^^^ REPLACE UNTIL HERE ^^^ */
