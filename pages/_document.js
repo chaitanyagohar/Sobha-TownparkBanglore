@@ -1,13 +1,11 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 
-// Your Google Tag Manager ID
-const GTM_ID = 'GTM-XXXXXXX';
+const GTM_ID = 'G-DZZTFWZXD4';
 
 export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        {/* Google Tag Manager Script */}
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -19,9 +17,7 @@ export default function Document() {
             `,
           }}
         />
-        {/* End Google Tag Manager Script */}
 
-        {/* --- ADDED: Sitelinks Structured Data --- */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -29,12 +25,12 @@ export default function Document() {
               '@context': 'https://schema.org',
               '@type': 'WebSite',
               'name': 'Sobha Town Park',
-              'url': 'https://www.yourclientdomain.com/', // IMPORTANT: Replace with your actual domain
+              'url': 'https://www.sobha-townparkproject.com/', // IMPORTANT: Replace with your actual domain
               'potentialAction': {
                 '@type': 'SearchAction',
                 'target': {
                   '@type': 'EntryPoint',
-                  'urlTemplate': 'https://www.yourclientdomain.com/?s={search_term_string}' // IMPORTANT: Replace with your actual domain
+                  'urlTemplate': 'https://www.sobha-townparkproject.com/?s={search_term_string}' // IMPORTANT: Replace with your actual domain
                 },
                 'query-input': 'required name=search_term_string',
               },
