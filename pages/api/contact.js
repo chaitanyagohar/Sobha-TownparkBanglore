@@ -20,7 +20,7 @@ export default async function handler(req, res) {
   // Define the email content
   const mailOptions = {
     from: `"Sobha Townpark Banglore" <${process.env.EMAIL_USER}>`,
-    to: 'propphasebangalore@gmail.com', // Your specified receiving email address
+    to: 'PROPPHASE@GMAIL.COM', // Your specified receiving email address
     subject: `New Enquiry from ${name} via Website`,
     html: `
       <h1>New Contact Form Submission</h1>

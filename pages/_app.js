@@ -5,6 +5,7 @@ import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Script from 'next/script';
 import * as gtag from '../lib/gtag'; // We will create this file next
+console.log("My GA ID is:", process.env.NEXT_PUBLIC_GA_ID);
 
 export default function App({ Component, pageProps }) {
   const router = useRouter();
