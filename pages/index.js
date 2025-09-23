@@ -8,6 +8,7 @@ import { FaBars, FaTimes, FaCheckCircle, FaPhoneAlt, FaWhatsapp, FaFilePdf, FaCo
 import Script from 'next/script';
 import Link from 'next/link'; // Import the Link component
 import { useRouter } from 'next/router';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 // --- Animation Variants ---
 const fadeInUp = {
