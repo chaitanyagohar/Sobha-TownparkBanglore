@@ -532,7 +532,7 @@ export default function Home(){
               </button>
               
               <div className="flex justify-center mb-5">
-                <img src="/images/logo-sobha-color.jpg" alt="Sobha Logo" className="h-12 w-auto" />
+                <img src="/images/logo-sobha.png" alt="Sobha Logo" className="h-12 w-auto" />
               </div>
 
               <h3 className="text-2xl font-bold text-center text-gray-800 mb-2">Sobha Town Park</h3>
