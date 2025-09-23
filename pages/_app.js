@@ -5,6 +5,8 @@ import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Script from 'next/script';
 import * as gtag from '../lib/gtag'; // We will create this file next
+import { Analytics } from "@vercel/analytics/next"
+
 console.log("My GA ID is:", process.env.NEXT_PUBLIC_GA_ID);
 
 export default function App({ Component, pageProps }) {
@@ -22,6 +24,7 @@ export default function App({ Component, pageProps }) {
 
   return (
     <>
+    <Analytics />
       {/* Global Site Tag (gtag.js) - Google Analytics */}
       <Script
         strategy="afterInteractive"

@@ -642,6 +642,7 @@ export default function Home(){
           <span>Call Us</span>
         </a>
       </div>
+      <SpeedInsights />
 
       {/* <Script
         strategy="lazyOnload"
