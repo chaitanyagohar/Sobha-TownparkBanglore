@@ -10,7 +10,7 @@ export default function TermsAndConditions() {
       <header className="bg-white shadow-md">
         <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
           <Link href="/">
-            <img src="/images/logo-sobha.webp" alt="Company Logo" className="h-10 w-auto" />
+            <img src="/images/logo-sobha.png" alt="Company Logo" className="h-10 w-auto" />
           </Link>
           <Link href="/" className="text-white bg-[#d3af37] hover:brightness-95 font-semibold px-4 py-2 rounded-md">
               Back to Home

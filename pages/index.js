@@ -192,7 +192,7 @@ export default function Home(){
       <header className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${isHeaderScrolled ? 'bg-white shadow-md' : 'bg-transparent'}`}>
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
           <div>
-            <a href="#home"><img src="/images/logo-sobha.webp" alt="Company Logo" className="h-10 w-auto" /></a>
+            <a href="#home"><img src="/images/logo-sobha.png" alt="Company Logo" className="h-10 w-auto" /></a>
           </div>
           <nav className={`hidden lg:flex items-center gap-6 transition-colors duration-300 ${isHeaderScrolled ? 'text-gray-800' : 'text-white'}`}>
             <a href="#about" className="hover:text-[#d3af37]">About</a>
@@ -532,7 +532,7 @@ export default function Home(){
               </button>
               
               <div className="flex justify-center mb-5">
-                <img src="/images/logo-sobha.webp" alt="Sobha Logo" className="h-12 w-auto" />
+                <img src="/images/logo-sobha-color.jpg" alt="Sobha Logo" className="h-12 w-auto" />
               </div>
 
               <h3 className="text-2xl font-bold text-center text-gray-800 mb-2">Sobha Town Park</h3>
